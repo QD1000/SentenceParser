@@ -1,0 +1,7 @@
+C:\Users\Vivek\documents\visual studio 2015\Projects\SentenceParser\SentenseParser.Tests\bin\Debug\SentenseParser.Tests.dll
+C:\Users\Vivek\documents\visual studio 2015\Projects\SentenceParser\SentenseParser.Tests\bin\Debug\SentenseParser.Tests.pdb
+C:\Users\Vivek\documents\visual studio 2015\Projects\SentenceParser\SentenseParser.Tests\bin\Debug\SentenceParser.exe
+C:\Users\Vivek\documents\visual studio 2015\Projects\SentenceParser\SentenseParser.Tests\bin\Debug\SentenceParser.pdb
+C:\Users\Vivek\documents\visual studio 2015\Projects\SentenceParser\SentenseParser.Tests\obj\Debug\SentenseParser.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Vivek\documents\visual studio 2015\Projects\SentenceParser\SentenseParser.Tests\obj\Debug\SentenseParser.Tests.dll
+C:\Users\Vivek\documents\visual studio 2015\Projects\SentenceParser\SentenseParser.Tests\obj\Debug\SentenseParser.Tests.pdb

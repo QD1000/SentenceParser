@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="SentenceParser.View.SentenceParserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SentenceParser.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="372.443" d:DesignWidth="636.648" >
+    <Grid FocusManager.FocusedElement="{Binding ElementName=txtSentence}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <GroupBox  Header="Enter Sentence" HorizontalAlignment="Stretch" Margin="1,-3,1,5" VerticalAlignment="Stretch"  Style="{StaticResource GroupBoxStyle}" >
+            <TextBox  HorizontalAlignment="Stretch"  Margin="0,-11,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto"
+                      x:Name="txtSentence"
+                      Text="{Binding Sentence, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}"
+                      Style="{StaticResource TextBoxStyle}"/>
+        </GroupBox>
+        <GroupBox  Header="Words" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="1,116,1,6"   Style="{StaticResource GroupBoxStyle}" Grid.RowSpan="2">
+            <ListBox HorizontalAlignment="Stretch"  Margin="0,-11,0,0" VerticalAlignment="Stretch"                                      
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     ListBox.ItemContainerStyle="{StaticResource ListBoxItemStyle}"
+                     DisplayMemberPath="DisplayInfo"
+                     ItemsSource="{Binding WordsCountList}">
+            </ListBox>
+        </GroupBox>
+    </Grid>
+</UserControl>

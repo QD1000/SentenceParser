@@ -1,0 +1,6 @@
+﻿
+
+- This WPF application parse a sentence into words and their occurences.
+- Words with most appearences appears on top of the list.  
+- Numbers and special characters are ignored.
+- The styles used are freely available on Infragistics website.
